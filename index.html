@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Not Title Yet</title>
   </head>
   <body>
@@ -19,25 +23,69 @@
     </div>
     <header>
       <div class="">
-        <a href="#"><img src="" alt=""></a><!-- Background image in the top -->
+        <a href="#"><img src="./assets/bg-top3.jpg" alt=""></a><!-- Background image in the top -->
       </div>
       <nav>
         <div class="">
-          <a href="#"><img src="" alt=""></a><!-- logo -->
+          <a href="#"><img src="./assets/logo1.png" alt="" width="150px"></a><!-- logo -->
           <form class="" action="index.html" method="post">
             <input type="text" name="" value="">
             <input type="search" name="search" value="Icon">
           </form>
         </div>
         <ul>
-          <li><a href="#">Makeup</a></li>
-          <li><a href="#">Skin Care</a></li>
-          <li><a href="#">Hair</a></li>
-          <li><a href="#">Perfume</a></li>
-          <li><a href="#">Trendies</a></li>
+          <li><a href="#">Cleansers</a></li>
+          <li><a href="#">Toners</a></li>
+          <li><a href="#">Serum & Essence</a></li>
+          <li><a href="#">Eye Care</a></li>
+          <li><a href="#">Masks</a></li>
+          <li><a href="#">Moisturizers</a></li>
+          <li><a href="#">Suncare</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Make Up</a></li>
+          <li><a href="#">Body & Hair</a></li>
           <li><a href="#">Brands</a></li>
+          <li><a href="#">Sets & Gifts</a></li>
         </ul>
       </nav>
     </header>
+
+    <main class="">
+      <section class="container-fluid"><!-- Carrousel seccion -->
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/bg-top2.jpg" alt="" class="w-100" height="500px">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/bg-top5.jpg" alt="" class="w-100" height="500px">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/bg-top4.jpg" alt="" class="w-100" height="500px">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+      </section>
+
+    </main>
   </body>
 </html>
