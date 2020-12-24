@@ -1,3 +1,6 @@
+$back-color: #c75f8e;
+$back-main-color: #e3d1d9;
+
 body {
   li {
     list-style: none;
@@ -10,4 +13,16 @@ body {
       text-decoration: none;
     }
   }
+}
+
+.back-ground {
+  background-image: url('bg-top3.jpg');
+}
+
+main {
+  background-color: $back-main-color;
+}
+
+footer {
+  background-color: $back-color;
 }
