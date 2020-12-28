@@ -1,8 +1,9 @@
-$back-head-color: #7f5ba8;
+$back-head-color: #7974a3;
 $back-color: #c75f8e;
 $back-main-color: #e3d1d9;
-$color-light: #baa7cf;
-
+$color-light: #e2e1ed;
+$nav-top-color: #3d32a1;
+$nav-top-color2: #575099;
 body {
   li {
     list-style: none;
@@ -25,16 +26,21 @@ footer {
   background-color: $back-color;
 }
 
-.bg-color-head {
+.div-head {
   background-color: $back-head-color;
   color: white;
   font-weight: bold;
+  font-size: 19px;
   a:hover {
     color: $color-light;
   }
 }
 
-.div-head {
-
-
+.nav-top a {
+  color: $nav-top-color;
+  font-weight: bold;
+  font-size: 18px;
+  &:hover {
+    color: $nav-top-color2;
+  }
 }

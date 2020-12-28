@@ -17,13 +17,23 @@ footer {
   background-color: #c75f8e;
 }
 
-.bg-color-head {
-  background-color: #7f5ba8;
+.div-head {
+  background-color: #7974a3;
   color: white;
   font-weight: bold;
+  font-size: 19px;
 }
-.bg-color-head a:hover {
-  color: #baa7cf;
+.div-head a:hover {
+  color: #e2e1ed;
+}
+
+.nav-top a {
+  color: #3d32a1;
+  font-weight: bold;
+  font-size: 18px;
+}
+.nav-top a:hover {
+  color: #575099;
 }
 
 /*# sourceMappingURL=master.css.map */
