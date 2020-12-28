@@ -17,5 +17,13 @@ footer {
   background-color: #c75f8e;
 }
 
+.bg-color-head {
+  background-color: #7f5ba8;
+  color: white;
+  font-weight: bold;
+}
+.bg-color-head a:hover {
+  color: #baa7cf;
+}
 
 /*# sourceMappingURL=master.css.map */

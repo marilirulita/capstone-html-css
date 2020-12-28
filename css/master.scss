@@ -1,5 +1,7 @@
+$back-head-color: #7f5ba8;
 $back-color: #c75f8e;
 $back-main-color: #e3d1d9;
+$color-light: #baa7cf;
 
 body {
   li {
@@ -21,4 +23,18 @@ main {
 
 footer {
   background-color: $back-color;
+}
+
+.bg-color-head {
+  background-color: $back-head-color;
+  color: white;
+  font-weight: bold;
+  a:hover {
+    color: $color-light;
+  }
+}
+
+.div-head {
+
+
 }
