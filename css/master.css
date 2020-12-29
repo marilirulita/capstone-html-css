@@ -6093,6 +6093,16 @@ body a {
 body a:hover {
   text-decoration: none;
 }
+body h1 {
+  color: #a30569;
+  font-family: "Lobster", cursive;
+  font-size: 80px;
+}
+body h2,
+body h4,
+body h5 {
+  color: #4f474d;
+}
 
 main {
   background-color: #e3d1d9;

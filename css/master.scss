@@ -7,7 +7,8 @@ $back-main-color: #e3d1d9;
 $color-light: #e2e1ed;
 $nav-top-color: #3d32a1;
 $nav-top-color2: #575099;
-$h2-color: #ed2492;
+$h2-color: #4f474d;
+$h1-color: #a30569;
 
 
 body {
@@ -22,7 +23,14 @@ body {
       text-decoration: none;
     }
   }
-  h2 {
+  h1 {
+    color: $h1-color;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+  }
+  h2,
+  h4,
+  h5 {
     color: $h2-color;
   }
 }
