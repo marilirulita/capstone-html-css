@@ -68,3 +68,9 @@ footer {
     color: $nav-top-color2;
   }
 }
+
+.expand-month:hover {
+  margin: 0 -15px;
+  background-color: white;
+  z-index: 15;
+}

@@ -6138,4 +6138,10 @@ footer {
   color: #575099;
 }
 
+.expand-month:hover {
+  margin: 0 -15px;
+  background-color: white;
+  z-index: 15;
+}
+
 /*# sourceMappingURL=master.css.map */
