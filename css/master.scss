@@ -49,3 +49,10 @@ footer {
     color: $nav-top-color2;
   }
 }
+
+.txt-color {
+  color: $nav-top-color;
+  &:hover {
+    color: $nav-top-color2;
+  }
+}

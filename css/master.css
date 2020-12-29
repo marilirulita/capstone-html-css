@@ -6121,4 +6121,11 @@ footer {
   color: #575099;
 }
 
+.txt-color {
+  color: #3d32a1;
+}
+.txt-color:hover {
+  color: #575099;
+}
+
 /*# sourceMappingURL=master.css.map */
