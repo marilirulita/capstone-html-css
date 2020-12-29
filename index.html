@@ -277,28 +277,44 @@
     </main>
 
     <footer>
-      <div class="">
-        <ul>
-          <li><a href="#">Other</a></li>
-          <li><a href="#">Other</a></li>
-          <li><a href="#">Other</a></li>
-          <li><a href="#">Other</a></li>
-          <li><a href="#">Other</a></li>
-        </ul>
-        <ul>
-          <li><img src="./assets/logo1.png" alt="" width="120px" class="rounded-circle"></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
+      <div class="d-flex p-3">
+        <div class="d-flex border mr-3 p-2">
+          <a href="#"><img src="./assets/logo1.png" alt="" width="100px p-2" class="rounded-circle"></a>
+          <div class="d-flex flex-column p-2 ml-2">
+            <ul class="d-flex">
+              <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+            </ul>
+            <form action="index.html" method="post" class="text-center">
+              <h4 for="subscribe" class="font-weight-bold text-nowrap">Sign Up For Email Updates</h4>
+              <div class="input-group mb-3">
+                <input type="email" name="" value="" id="subscribe" class="form-control" placeholder="Enter email">
+                <div class="input-group-append">
+                  <button type="button" name="button" class="btn bg-white"><i class="far fa-envelope"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <ul class="d-flex border m-0 p-2 text-center align-items-center">
+          <li class="p-2 m-2"><a href="#">Customer Service</a></li>
+          <li class="p-2 m-2"><a href="#">Return Policy</a></li>
+          <li class="p-2 m-2"><a href="#">Shipping Information</a></li>
+          <li class="p-2 m-2"><a href="#">Rewards Program</a></li>
+          <li class="p-2 m-2"><a href="#">Contact Us</a></li>
+          <li class="p-2 m-2"><a href="#">FAQs</a></li>
         </ul>
       </div>
-      <div class="">
-        <ul>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">conditions</a></li>
-          <li><a href="#">others legal</a></li>
+
+      <div class="d-flex bg-light terms justify-content-around p-3">
+        <ul class="d-flex p-0 m-0">
+          <li class="px-2 border-right"><a href="#">Terms Of Use</a></li>
+          <li class="px-2 border-right"><a href="#">Accessibility</a></li>
+          <li class="px-2"><a href="#">Privacy Policy</a></li>
         </ul>
-        <p>copyright reserved</p>
+        <p class="p-0 m-0">Copyright Ⓒ 2020 Skin Care Inc. All Rights Reserved</p>
       </div>
     </footer>
 

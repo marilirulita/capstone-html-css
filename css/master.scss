@@ -1,5 +1,7 @@
 @import "scss/fontawesome.scss";
 @import "scss/solid.scss";
+@import "scss/brands.scss";
+@import "scss/regular.scss";
 
 $back-head-color: #7974a3;
 $back-color: #c75f8e;
@@ -41,6 +43,13 @@ main {
 
 footer {
   background-color: $back-color;
+  color: $h2-color;
+  a {
+    color: $h2-color;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+  }
 }
 
 .div-head {
@@ -73,4 +82,9 @@ footer {
   margin: 0 -15px;
   background-color: white;
   z-index: 15;
+}
+
+.terms,
+.terms a {
+  font-size: 15px;
 }
