@@ -6185,6 +6185,13 @@ footer a {
   z-index: 15;
 }
 
+.but-col {
+  background-color: #a30569;
+  border: 1px solid #a30569;
+  color: white;
+  border-radius: 5px;
+}
+
 .terms,
 .terms a {
   font-size: 15px;
