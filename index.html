@@ -30,12 +30,12 @@
           </i></a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <i class="fas fa-bars fa-2x text-white"></i>
+          <span  data-toggle="tooltip" title="Bar Menu"><i class="fas fa-bars fa-2x text-white"></i></span>
         </button>
         <!-- Navbar links -->
         <div class="collapse navbar-collapse navbar-expand" id="collapsibleNavbar">
           <ul class="navbar-nav nav-top">
-            <li class="nav-item"><a href="#" class="nav-link">Cleansers</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">Cleansers</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Toners</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Serum & Essence</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Eye Care</a></li>
@@ -59,17 +59,19 @@
     <header class="card border">
       <img src="./assets/bg-top3.jpg" alt="" class="card-img-top" height="180px">
       <div class="card-img-overlay border">
-        <nav class="navbar navbar-expand-lg border">
-          <a href="#" class="navbar-brand"><img src="./assets/logo1.png" alt="" width="100px" class="rounded-circle"></a><!-- logo -->
-          <h1 class="mx-3 display-4"><a href="#" class="nav-link">Skin Care</a></h1>
-          <ul class="navbar-nav nav-bot">
-            <li class="nav-item"><a href="#" class="nav-link">Cleansers</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Toners</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Serum & Essence</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Eye Care</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Masks</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Moisturizers</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Suncare</a></li>
+        <nav class="navbar navbar-expand border justify-content-center align-items-center">
+          <a href="#" class="navbar-brand">
+            <img src="./assets/logo1.png" alt="" width="100px" class="rounded-circle"><!-- logo -->
+          </a>
+          <h1 class="mx-3 display-4 d-md-none">Skin Care</h1>
+          <ul class="navbar-nav nav-bot flex-wrap d-none d-md-flex">
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase">Cleansers</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase">Toners</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase">Serum & Essence</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase">Eye Care</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase">Masks</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase">Moisturizers</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase">Suncare</a></li>
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">More</a>
               <div class="dropdown-menu">
@@ -119,10 +121,10 @@
         </div>
       </section>
 
-      <section class="container"><!-- Best seller -->
+      <section class="container-fluid"><!-- Best seller -->
         <h2 class="mt-4">Best Sellers</h2>
         <div class="row">
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-1.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body clearfix">
@@ -133,7 +135,7 @@
             </div>
           </div>
 
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-2.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body">
@@ -144,7 +146,7 @@
             </div>
           </div>
 
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-3.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body">
@@ -154,7 +156,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-4.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body">
@@ -165,7 +167,7 @@
             </div>
           </div>
 
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-5.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body">
@@ -175,7 +177,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-6.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body">
@@ -185,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-7.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body">
@@ -195,7 +197,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 my-3">
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
               <img src="./assets/clean-8.jpg" alt="" class="card-img-top" height="250px">
               <div class="card-body">
@@ -212,9 +214,9 @@
       <section class="container py-3">
         <h2 class="my-3">Product of he month</h2>
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6 my-3">
             <div class="expand-month border clearfix">
-              <img src="./assets/toner-1.jpg" alt="" class="w-100" height="400px"><!-- Background image -->
+              <img src="./assets/toner-1.jpg" alt="" class="w-100"><!-- Background image -->
               <div class="p-3">
                 <h4>Toner</h4>
                 <p class="m-0">While you can definitely find a toner tailored to your specific skin needs, this do-it-all is a
@@ -225,7 +227,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-md-6 col-lg-3 my-3">
             <div class=" expand-month border clearfix">
               <img src="./assets/toner-2.jpg" alt="" class="w-100"><!-- Background image -->
               <div class="p-3">
@@ -238,7 +240,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="d-block d-md-none d-lg-block col-12 col-lg-3  my-3">
             <div class=" expand-month border clearfix">
               <img src="./assets/toner-3.jpg" alt="" class="w-100"><!-- Background image -->
               <div class="p-3">
@@ -254,7 +256,7 @@
         </div>
       </section>
 
-      <section class="container py-3">
+      <section class="container-fluid py-3">
         <h2 class="my-3">New</h2>
 
         <div id="products" class="carousel slide" data-ride="carousel">
@@ -270,7 +272,7 @@
             <div class="carousel-item active">
 
               <div class="row">
-                <div class="col-3">
+                <div class="col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-1.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -280,7 +282,7 @@
                   </div>
 
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-2.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -289,7 +291,7 @@
                     <span class="py-2 px-3 bg-dark font-weight-bold rounded-circle float-right">$9</span>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="d-none d-md-block col-sm-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-3.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -298,7 +300,7 @@
                     <span class="py-2 px-3 bg-dark font-weight-bold rounded-circle float-right">$9</span>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="d-none d-lg-block d-col-sm-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-4.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -312,7 +314,7 @@
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-3">
+                <div class="col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-5.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -322,7 +324,7 @@
                   </div>
 
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-6.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -331,7 +333,7 @@
                     <span class="py-2 px-3 bg-dark font-weight-bold rounded-circle float-right">$9</span>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="d-none d-md-block col-sm-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-7.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -340,7 +342,7 @@
                     <span class="py-2 px-3 bg-dark font-weight-bold rounded-circle float-right">$9</span>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="d-none d-lg-block d-col-sm-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-8.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -354,7 +356,7 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-3">
+                <div class="col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-9.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -364,7 +366,7 @@
                   </div>
 
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-10.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -373,7 +375,7 @@
                     <span class="py-2 px-3 bg-dark font-weight-bold rounded-circle float-right">$9</span>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="d-none d-md-block col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-11.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -382,7 +384,7 @@
                     <span class="py-2 px-3 bg-dark font-weight-bold rounded-circle float-right">$9</span>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="d-none d-lg-block col-6 col-md-4 col-lg-3">
                   <div class="embed-responsive embed-responsive-1by1">
                     <a href="#"><img src="./assets/serum-12.jpg" alt="" class="embed-responsive-item"></a>
                   </div>
@@ -409,62 +411,70 @@
       <section class="container py-3">
         <h2 class="my-3">Blog articles</h2>
         <!-- Blog section -->
-        <div class="card-deck">
+        <div class="row">
 
-          <div class="card">
-            <img src="./assets/toner-5.jpg" alt="" class="display-back card-img-top">
-            <div class="card-img-overlay display-on">
-              <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
-                If you’re dealing with redness and/or irritation, you may instinctually want to avoid a toner,
-                but go ahead and try this one, on the recommendation of Byrdie Senior Editor Lindsey Metrus.
-                Packed with essential fatty acids plus soothing botanicals and vitamins, it quells redness and
-                calms skin with each swipe; it’s even a good option if you have rosacea. The formula is so hydrating
-                that it’s also great to use if you’re just getting started on a retinoid, as it can help minimize
-                the likelihood of ending up with unsightly side effects like peeling and flaking...
-              </a></p>
-              <button type="button" name="button" class="btn btn-dark">Read more</button>
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="card">
+              <img src="./assets/toner-5.jpg" alt="" class="display-back card-img-top">
+              <div class="card-img-overlay display-on">
+                <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
+                  If you’re dealing with redness and/or irritation, you may instinctually want to avoid a toner,
+                  but go ahead and try this one, on the recommendation of Byrdie Senior Editor Lindsey Metrus.
+                  Packed with essential fatty acids plus soothing botanicals and vitamins, it quells redness and
+                  calms skin with each swipe; it’s even a good option if you have rosacea. The formula is so hydrating
+                  that it’s also great to use if you’re just getting started on a retinoid, as it can help minimize
+                  the likelihood of ending up with unsightly side effects like peeling and flaking...
+                </a></p>
+                <button type="button" name="button" class="btn btn-dark">Read more</button>
+              </div>
             </div>
           </div>
 
-          <div class="card">
-            <img src="./assets/toner-5.jpg" alt="" class="display-back card-img-top">
-            <div class="card-img-overlay display-on">
-              <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
-                The star of the show here is matcha, which helps to detoxify and purify pores, always a major
-                boon for those with oily skin. Kombucha and witch hazel further absorb unwanted, excess oil,
-                and we’d be remiss not to mention the fact that this is a unique solid formula. That’s right,
-                it’s a gel-based toner-in-a-stick, ideal not only for travel, but also to keep on-hand and swipe
-                across any slick spots that crop up throughout the day...
-              </a></p>
-              <button type="button" name="button" class="btn btn-dark">Read more</button>
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="card">
+              <img src="./assets/toner-5.jpg" alt="" class="display-back card-img-top">
+              <div class="card-img-overlay display-on">
+                <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
+                  The star of the show here is matcha, which helps to detoxify and purify pores, always a major
+                  boon for those with oily skin. Kombucha and witch hazel further absorb unwanted, excess oil,
+                  and we’d be remiss not to mention the fact that this is a unique solid formula. That’s right,
+                  it’s a gel-based toner-in-a-stick, ideal not only for travel, but also to keep on-hand and swipe
+                  across any slick spots that crop up throughout the day...
+                </a></p>
+                <button type="button" name="button" class="btn btn-dark">Read more</button>
+              </div>
             </div>
           </div>
 
-          <div class="card">
-            <img src="./assets/toner-6.jpg" alt="" class="display-back card-img-top">
-            <div class="card-img-overlay display-on">
-              <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
-                The star of the show here is matcha, which helps to detoxify and purify pores, always a major
-                boon for those with oily skin. Kombucha and witch hazel further absorb unwanted, excess oil,
-                and we’d be remiss not to mention the fact that this is a unique solid formula. That’s right,
-                it’s a gel-based toner-in-a-stick, ideal not only for travel, but also to keep on-hand and swipe
-                across any slick spots that crop up throughout the day...
-              </a></p>
-              <button type="button" name="button" class="btn btn-dark">Read more</button>
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="card">
+              <img src="./assets/toner-6.jpg" alt="" class="display-back card-img-top">
+              <div class="card-img-overlay display-on">
+                <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
+                  The star of the show here is matcha, which helps to detoxify and purify pores, always a major
+                  boon for those with oily skin. Kombucha and witch hazel further absorb unwanted, excess oil,
+                  and we’d be remiss not to mention the fact that this is a unique solid formula. That’s right,
+                  it’s a gel-based toner-in-a-stick, ideal not only for travel, but also to keep on-hand and swipe
+                  across any slick spots that crop up throughout the day...
+                </a></p>
+                <button type="button" name="button" class="btn btn-dark">Read more</button>
+              </div>
             </div>
           </div>
 
-          <div class="card">
-            <img src="./assets/toner-6.jpg" alt="" class="display-back card-img-top">
-            <div class="card-img-overlay display-on">
-              <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
-                The star of the show here is matcha, which helps to detoxify and purify pores, always a major
-                boon for those with oily skin. Kombucha and witch hazel further absorb unwanted, excess oil,
-                and we’d be remiss not to mention the fact that this is a unique solid formula. That’s right,
-                it’s a gel-based toner-in-a-stick, ideal not only for travel, but also to keep on-hand and swipe
-                across any slick spots that crop up throughout the day...
-              </a></p>
-              <button type="button" name="button" class="btn btn-dark">Read more</button>
+          <div class="col-sm-6 col-md-4 col-lg-3 my-3">
+            <div class="card">
+              <img src="./assets/toner-6.jpg" alt="" class="display-back card-img-top">
+              <div class="card-img-overlay display-on">
+                <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
+                  The star of the show here is matcha, which helps to detoxify and purify pores, always a major
+                  boon for those with oily skin. Kombucha and witch hazel further absorb unwanted, excess oil,
+                  and we’d be remiss not to mention the fact that this is a unique solid formula. That’s right,
+                  it’s a gel-based toner-in-a-stick, ideal not only for travel, but also to keep on-hand and swipe
+                  across any slick spots that crop up throughout the day...
+                </a></p>
+                <button type="button" name="button" class="btn btn-dark">Read more</button>
+              </div>
             </div>
           </div>
 
@@ -473,8 +483,8 @@
 
     </main>
 
-    <footer>
-      <div class="d-flex p-3">
+    <footer class="">
+      <div class="d-flex p-3 justify-content-center container-fluid">
         <div class="d-flex border mr-3 p-2">
           <a href="#"><img src="./assets/logo1.png" alt="" width="100px p-2" class="rounded-circle"></a>
           <div class="d-flex flex-column p-2 ml-2">
@@ -495,7 +505,7 @@
             </form>
           </div>
         </div>
-        <ul class="d-flex border m-0 p-2 text-center align-items-center">
+        <ul class="d-none d-lg-flex border m-0 p-2 text-center align-items-center flex-wrap">
           <li class="p-2 m-2"><a href="#">Customer Service</a></li>
           <li class="p-2 m-2"><a href="#">Return Policy</a></li>
           <li class="p-2 m-2"><a href="#">Shipping Information</a></li>
@@ -504,16 +514,27 @@
           <li class="p-2 m-2"><a href="#">FAQs</a></li>
         </ul>
       </div>
+      <ul class="d-flex d-lg-none border m-0 p-2 text-center align-items-center flex-wrap">
+        <li class="p-2 m-2"><a href="#" class="border-right border-left">Customer Service</a></li>
+        <li class="p-2 m-2"><a href="#" class="border-right border-left">Return Policy</a></li>
+        <li class="p-2 m-2"><a href="#" class="border-right border-left">Shipping Information</a></li>
+        <li class="p-2 m-2"><a href="#" class="border-right border-left">Rewards Program</a></li>
+        <li class="p-2 m-2"><a href="#" class="border-right border-left">Contact Us</a></li>
+        <li class="p-2 m-2"><a href="#" class="border-right border-left">FAQs</a></li>
+      </ul>
 
-      <div class="d-flex bg-light terms justify-content-around align-items-center">
-        <ul class="d-flex p-3 m-0">
-          <li class="px-2 border-right"><a href="#">Terms Of Use</a></li>
-          <li class="px-2 border-right"><a href="#">Accessibility</a></li>
-          <li class="px-2"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p class="p-3 m-0">Copyright Ⓒ 2020 Skin Care Inc. All Rights Reserved</p>
-        <span class="px-2 py-1 bg-dark rounded"><a href="#" class="text-white" data-toggle="tooltip" title="Top">
-          <i class="fas fa-arrow-alt-circle-up fa-2x"></i></a></span>
+      <div class="d-flex bg-light terms flex-column">
+        <div class="d-flex justify-content-center align-items-center">
+          <ul class="d-flex p-3 m-0">
+            <li class="px-2 border-right"><a href="#">Terms Of Use</a></li>
+            <li class="px-2 border-right"><a href="#">Accessibility</a></li>
+            <li class="px-2"><a href="#">Privacy Policy</a></li>
+          </ul>
+          <p class="p-3 m-0 d-none d-lg-inline">Copyright Ⓒ 2020 Skin Care Inc. All Rights Reserved</p>
+          <span class="px-2 py-1 bg-dark rounded"><a href="#" class="text-white" data-toggle="tooltip" title="Top">
+            <i class="fas fa-arrow-alt-circle-up fa-2x"></i></a></span>
+        </div>
+        <p class="p-3 m-0 d-lg-none text-center">Copyright Ⓒ 2020 Skin Care Inc. All Rights Reserved</p>
       </div>
     </footer>
 
