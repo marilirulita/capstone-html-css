@@ -14,27 +14,36 @@
   <body>
     <!-- this project is a copy of a popular store of beaty products -->
     <div class="header-top div-head sticky-top"> <!-- fixed top division -->
-      <div class="navbar">
-        <form class="form-inline" action="index.html" method="post">
-          <input type="text" name="" value="" class="form-control">
-          <button type="button" name="button" class="btn py-1 px-2" data-toggle="tooltip" title="Search">
-            <i class="fas fa-search fa-2x text-white"></i></button>
-        </form>
-        <div class="p-2">
+      <div class="navbar" id="top">
+
+        <div class="p-2 d-none d-md-block">
           <a href="#" class="px-2" data-toggle="tooltip" title="Sign In"><i class="fas fa-user fa-2x "></i></a>
           <a href="#" class="px-2" data-toggle="tooltip" title="Community"><i class="fas fa-users fa-2x "></i></a>
         </div>
-        <div class="p-2">
+        <div class="p-2 d-none d-md-block">
           <a href="#" class="px-2" data-toggle="tooltip" title="Stores"><i class="fas fa-store fa-2x "></i></a>
           <a href="#" class="px-2" data-toggle="tooltip" title="Shopping Cart"><i class="fas fa-shopping-cart fa-2x">
           </i></a>
         </div>
+
+        <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar2">
+          <span  data-toggle="tooltip" title="More"><i class="fas fa-chevron-circle-down fa-2x text-white"></i></i></span>
+        </button>
+        <div class="d-md-none collapse navbar-collapse navbar-expand" id="collapsibleNavbar2">
+          <ul class="navbar-nav">
+            <li><a href="#" class="px-2" data-toggle="tooltip" title="Sign In"><i class="fas fa-user fa-2x "></i></a></li>
+            <li><a href="#" class="px-2" data-toggle="tooltip" title="Community"><i class="fas fa-users fa-2x "></i></a></li>
+            <li><a href="#" class="px-2" data-toggle="tooltip" title="Stores"><i class="fas fa-store fa-2x "></i></a></li>
+            <li><a href="#" class="px-2" data-toggle="tooltip" title="Shopping Cart"><i class="fas fa-shopping-cart fa-2x"></i></a></li>
+          </ul>
+        </div>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span  data-toggle="tooltip" title="Bar Menu"><i class="fas fa-bars fa-2x text-white"></i></span>
+          <span data-toggle="tooltip" title="Bar Menu"><i class="fas fa-bars fa-2x text-white"></i></span>
         </button>
         <!-- Navbar links -->
         <div class="collapse navbar-collapse navbar-expand" id="collapsibleNavbar">
-          <ul class="navbar-nav nav-top">
+          <ul class="navbar-nav nav-top flex-wrap">
             <li class="nav-item"><a href="#" class="nav-link ">Cleansers</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Toners</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Serum & Essence</a></li>
@@ -52,6 +61,12 @@
               </div>
             </li>
           </ul>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control form-inline" placeholder="Search">
+          <div class="input-group-append">
+            <button class="btn" type="submit" data-toggle="tooltip" title="Search"><i class="fas fa-search fa-2x text-white"></i></button>
+          </div>
         </div>
       </div>
     </div>
@@ -415,15 +430,14 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
-              <img src="./assets/toner-5.jpg" alt="" class="display-back card-img-top">
+              <img src="./assets/toner-6.jpg" alt="" class="display-back card-img-top">
               <div class="card-img-overlay display-on">
                 <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
-                  If you’re dealing with redness and/or irritation, you may instinctually want to avoid a toner,
-                  but go ahead and try this one, on the recommendation of Byrdie Senior Editor Lindsey Metrus.
-                  Packed with essential fatty acids plus soothing botanicals and vitamins, it quells redness and
-                  calms skin with each swipe; it’s even a good option if you have rosacea. The formula is so hydrating
-                  that it’s also great to use if you’re just getting started on a retinoid, as it can help minimize
-                  the likelihood of ending up with unsightly side effects like peeling and flaking...
+                  The star of the show here is matcha, which helps to detoxify and purify pores, always a major
+                  boon for those with oily skin. Kombucha and witch hazel further absorb unwanted, excess oil,
+                  and we’d be remiss not to mention the fact that this is a unique solid formula. That’s right,
+                  it’s a gel-based toner-in-a-stick, ideal not only for travel, but also to keep on-hand and swipe
+                  across any slick spots that crop up throughout the day...
                 </a></p>
                 <button type="button" name="button" class="btn btn-dark">Read more</button>
               </div>
@@ -432,7 +446,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3 my-3">
             <div class="card">
-              <img src="./assets/toner-5.jpg" alt="" class="display-back card-img-top">
+              <img src="./assets/toner-6.jpg" alt="" class="display-back card-img-top">
               <div class="card-img-overlay display-on">
                 <p class="card-text"><a href="#" class="card-link text-secondary font-weight-bold">
                   The star of the show here is matcha, which helps to detoxify and purify pores, always a major
@@ -531,7 +545,7 @@
             <li class="px-2"><a href="#">Privacy Policy</a></li>
           </ul>
           <p class="p-3 m-0 d-none d-lg-inline">Copyright Ⓒ 2020 Skin Care Inc. All Rights Reserved</p>
-          <span class="px-2 py-1 bg-dark rounded"><a href="#" class="text-white" data-toggle="tooltip" title="Top">
+          <span class="px-2 py-1 bg-dark rounded"><a href="#top" class="text-white" data-toggle="tooltip" title="Top">
             <i class="fas fa-arrow-alt-circle-up fa-2x"></i></a></span>
         </div>
         <p class="p-3 m-0 d-lg-none text-center">Copyright Ⓒ 2020 Skin Care Inc. All Rights Reserved</p>
