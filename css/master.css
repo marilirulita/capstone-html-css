@@ -6192,6 +6192,10 @@ footer a {
   border-radius: 5px;
 }
 
+.wid-size {
+  width: 48px;
+}
+
 .terms,
 .terms a {
   font-size: 15px;
