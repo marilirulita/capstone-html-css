@@ -20,7 +20,6 @@ body {
   a {
     color: inherit;
     text-decoration: none;
-
     &:hover {
       text-decoration: none;
     }
@@ -28,12 +27,21 @@ body {
   h1 {
     color: $h1-color;
     font-family: 'Lobster', cursive;
-    font-size: 80px;
+
+    a:hover {
+      opacity: .7;
+    }
   }
   h2,
   h4,
   h5 {
     color: $h2-color;
+  }
+}
+
+header {
+  a:hover {
+    color: inherit;
   }
 }
 
@@ -65,7 +73,7 @@ footer {
 .nav-top a {
   color: $nav-top-color;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   &:hover {
     color: $nav-top-color2;
   }
