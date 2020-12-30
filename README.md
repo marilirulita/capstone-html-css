@@ -2,10 +2,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Capstone Project
-Capstone project  for Html and Css module, The page works best on a all resolutions and using the Chrome browser.
+Capstone project  for Html and Css module, The page works best on all resolutions and using the Chrome browser.
 
+### Desktop Screen
+![screenshot](./assets/sceenchot-desktop.png)
 
-![screenshot](./assets/ScreenShot.png)
+### Tablet Screen
+![screenshot](./assets/screenshot-tablet.png)
+
+### Mobile Screen
+![screenshot](./assets/screenshot-mobile.png)
+
 
 ## Built With
 
@@ -32,7 +39,7 @@ Capstone project  for Html and Css module, The page works best on a all resoluti
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/marilirulita/The-Next-Web-Clone/issues).
+Feel free to check the [issues page](https://github.com/marilirulita/capstone-html-css/issues).
 
 ## Show your support
 
