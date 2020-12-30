@@ -11,6 +11,7 @@ $nav-top-color: #3d32a1;
 $nav-top-color2: #575099;
 $h2-color: #4f474d;
 $h1-color: #a30569;
+$nav-top: #4739c4;
 
 
 body {
@@ -72,8 +73,25 @@ footer {
 
 .nav-top a {
   color: $nav-top-color;
+  background-color: rgba(255, 255, 255, .4);
+  border-radius: 5px;
   font-weight: bold;
   font-size: 20px;
+  &:hover {
+    color: $nav-top;
+    background-color: rgba(255, 255, 255, .2);
+  }
+}
+
+.nav-drop a:hover {
+  background-color: $nav-top;
+  color: white;
+}
+
+.nav-bot a {
+  color: $h1-color;
+  font-weight: bold;
+  font-size: 21px;
   &:hover {
     color: $nav-top-color2;
   }

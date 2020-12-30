@@ -6171,10 +6171,27 @@ footer a {
 
 .nav-top a {
   color: #3d32a1;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
   font-weight: bold;
   font-size: 20px;
 }
 .nav-top a:hover {
+  color: #4739c4;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-drop a:hover {
+  background-color: #4739c4;
+  color: white;
+}
+
+.nav-bot a {
+  color: #a30569;
+  font-weight: bold;
+  font-size: 21px;
+}
+.nav-bot a:hover {
   color: #575099;
 }
 
