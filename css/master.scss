@@ -3,6 +3,26 @@
 @import "scss/brands.scss";
 @import "scss/regular.scss";
 
+/* project requires */
+@font-face {
+  font-family: "Gotham";
+  src: url("./css/HomepageBaukasten-Bold.otf");
+}
+
+@font-face {
+  font-family: "Hero Light";
+  src: url("css/Hero Light.otf");
+}
+
+.peoj-rew1 {
+  font-family: "Hero Light";
+}
+.proj-requi {
+  font-family: "Gotham";
+}
+
+/* project requires */
+
 $back-head-color: #7974a3;
 $back-color: #c75f8e;
 $back-main-color: #e3d1d9;
