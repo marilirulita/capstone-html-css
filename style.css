@@ -23,18 +23,6 @@
   src: url("./Helvetica-Bold.otf");
 }
 
-.font-fam {
-  font-family: "Helvetica Bold";
-}
-
-.font-fam1 {
-  font-family: "Helvetica Medium";
-}
-
-.font-fam2 {
-  font-family: "Helvetica Light";
-}
-
 /* project requires */
 /* project requires */
 body li {
@@ -80,14 +68,34 @@ footer a {
 }
 
 .div-head {
-  background-color: #7974a3;
-  color: white;
-  font-weight: bold;
-  font-size: 19px;
+  font-family: "Helvetica Light";
+  background-color: #383838; /* BLACK COLOR */
+  color: #888; /* GRAY COLOR */
 }
 
+.div-head h5 {
+  font-family: "Gotham Bold";
+}
+.div-head li {
+  margin: 0 15px;
+}
+
+.gray-color {
+  color: #888;
+}
+.gray-color:hover {
+  color: #d35266;
+}
 .div-head a:hover {
-  color: #e2e1ed;
+  color: #d35266; /* Red color */
+}
+
+.buttons {
+  background-color: #d35266;
+  color: #fff;
+  padding: 5px 15px;
+  border: 1px solid #d35266;
+  border-radius: 3px;
 }
 
 .nav-top a {

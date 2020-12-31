@@ -13,34 +13,45 @@
   </head>
   <body>
 
-    <div class="font-fam">
-      <p>tis paragraph has a special font Gotham Bold</p>
-    </div>
-    <div class="font-fam1">
-      <p>tis paragraph has a special font Gotham Rounded Light</p>
-    </div>
-    <div class="font-fam2">
-      <p>This paragraph has a special font Hero Light</p>
-    </div>
-    <div class="">
-      <p>This paragraph has a normal font</p>
-    </div>
     <!-- this project is a copy of a popular store of beaty products -->
-    <div class="header-top div-head sticky-top"> <!-- fixed top division -->
-      <div class="navbar" id="top">
+    <div class="div-head sticky-top"> <!-- fixed top division -->
+      <div class=" d-flex justify-content-around" id="top">
+        <div class="navbar navbar-expand">
+          <a href="#" class="navbar-brand d-flex align-items-center"><img src="./assets/logo1.png" alt="" width="40" class="rounded-circle"><!-- logo -->
+            <h5 class="text-white text-uppercase ml-3 my-0">Skin Care</h5>
+          </a>
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Home">
+              <i class="fas fa-home"></i><span class="px-3">Home</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Collections"><i class="fas fa-expand"></i>
+              <span class="px-3">Collections</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Shop"><i class="fas fa-shopping-cart"></i>
+              <span class="px-3">Purchase List</span></a></li>
+          </ul>
+          <button type="button" name="button" class="text-uppercase buttons">Post an ad</button>
+        </div>
+        <div class="navbar navbar-expand">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Messages">
+              <i class="far fa-envelope"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Profile">
+              <span class="text-capitalize px-3">your name</span><i class="fas fa-user"></i></a></li>
+          </ul>
+        </div>
+
+
+        <!--
 
         <div class="p-2 d-none d-md-block">
-          <a href="#" class="px-2" data-toggle="tooltip" title="Sign In"><i class="fas fa-user fa-2x"></i></a>
+
           <a href="#" class="px-2" data-toggle="tooltip" title="Community"><i class="fas fa-users fa-2x"></i></a>
         </div>
         <div class="p-2 d-none d-md-block">
           <a href="#" class="px-2" data-toggle="tooltip" title="Stores"><i class="fas fa-store fa-2x"></i></a>
-          <a href="#" class="px-2" data-toggle="tooltip" title="Shopping Cart"><i class="fas fa-shopping-cart fa-2x">
-          </i></a>
         </div>
 
         <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar2">
-          <span  data-toggle="tooltip" title="More"><i class="fas fa-chevron-circle-down fa-2x text-white"></i></span>
+          <span  data-toggle="tooltip" title="More"><i class="fas fa-chevron-circle-down fa-2x"></i></span>
         </button>
         <div class="d-md-none collapse navbar-collapse navbar-expand" id="collapsibleNavbar2">
           <ul class="navbar-nav">
@@ -52,9 +63,9 @@
         </div>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span data-toggle="tooltip" title="Bar Menu"><i class="fas fa-bars fa-2x text-white"></i></span>
+          <span data-toggle="tooltip" title="Bar Menu" class="gray-color"><i class="fas fa-bars fa-2x"></i></span>
         </button>
-        <!-- Navbar links -->
+
         <div class="collapse navbar-collapse navbar-expand" id="collapsibleNavbar">
           <ul class="navbar-nav nav-top flex-wrap">
             <li class="nav-item"><a href="#" class="nav-link ">Cleansers</a></li>
@@ -74,13 +85,7 @@
               </div>
             </li>
           </ul>
-        </div>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control form-inline" placeholder="Search">
-          <div class="input-group-append">
-            <button class="btn" type="submit" data-toggle="tooltip" title="Search"><i class="fas fa-search fa-2x text-white"></i></button>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -88,9 +93,7 @@
       <img src="./assets/bg-top3.jpg" alt="" class="card-img-top" height="180">
       <div class="card-img-overlay border">
         <nav class="navbar navbar-expand border justify-content-center align-items-center">
-          <a href="#" class="navbar-brand">
-            <img src="./assets/logo1.png" alt="" width="100" class="rounded-circle"><!-- logo -->
-          </a>
+
           <h1 class="mx-3 display-4 d-md-none">Skin Care</h1>
           <ul class="navbar-nav nav-bot flex-wrap d-none d-md-flex">
             <li class="nav-item"><a href="#" class="nav-link text-uppercase">Cleansers</a></li>
@@ -111,6 +114,12 @@
             </li>
           </ul>
         </nav>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control form-inline" placeholder="Search">
+          <div class="input-group-append">
+            <button class="btn" type="submit" data-toggle="tooltip" title="Search"><i class="fas fa-search fa-2x gray-color"></i></button>
+          </div>
+        </div>
       </div>
     </header>
 
