@@ -6118,22 +6118,6 @@ readers do not read off random characters that represent icons */
 }
 
 /* project requires */
-@font-face {
-  font-family: "Gotham";
-  src: url("./css/HomepageBaukasten-Bold.otf");
-}
-@font-face {
-  font-family: "Hero Light";
-  src: url("css/Hero Light.otf");
-}
-.peoj-rew1 {
-  font-family: "Hero Light";
-}
-
-.proj-requi {
-  font-family: "Gotham";
-}
-
 /* project requires */
 body li {
   list-style: none;
