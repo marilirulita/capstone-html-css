@@ -71,13 +71,31 @@ footer a {
 .div-head h5 {
   font-family: "Gotham Bold";
 }
+
 .div-head li {
   margin: 0 15px;
 }
 
 .header-style {
+  background-image: url("assets/logo1.png");
+  background-size: 300px;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
   background-color: #d35266;
   color: #fff;
+  padding: 30px 0;
+}
+.header-style p {
+  font-family: "Hero Light";
+}
+
+.header-style form {
+  font-family: "Helvetica Light";
+}
+.header-style input {
+  border: 1px solid #fff;
+  margin-right: 2px;
+  color: #888;
 }
 
 .gray-color {
@@ -90,6 +108,7 @@ footer a {
   color: #d35266; /* Red color */
 }
 
+
 .buttons {
   background-color: #d35266;
   color: #fff;
@@ -98,10 +117,22 @@ footer a {
   border-radius: 3px;
 }
 
-/* project requires */
+.but-drop {
+  background-color: #fff;
+  color: #888;
+  border: 1px solid #fff;
+  margin-right: 2px;
+}
 
+.but-search {
+  color: #888;
+  background-color: #383838;
+  border: 1px solid #383838;
+  border-radius: 2px;
+  padding: 0 25px;
+}
 
-.nav-top a {
+.nav-top a { /* Add for mobile screens, maybe */
   color: #383838;
 }
 .nav-top a:hover {
@@ -114,6 +145,7 @@ footer a {
   color: #fff;
 }
 
+/* project requires */
 .nav-bot a {
   color: #a30569;
   font-weight: bold;
