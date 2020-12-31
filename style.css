@@ -41,14 +41,16 @@ h1 {
   font-family: "Gotham Bold";
 }
 
-body h2,
-body h4,
-body h5 {
-  color: #4f474d;
+h2,
+h3,
+h4,
+h5 {
+  color: #888;
+  padding: 10px 0;
 }
 
 main {
-  background-color: #e3d1d9;
+  background-color: #F3F3F3; /* Light gray color */
 }
 
 footer {
@@ -146,6 +148,29 @@ footer a {
   color: #fff;
 }
 
+.carousel-div h4 {
+  color: #d35266;
+  font-family: "Helvetica Medium"
+}
+
+.carousel-div p {
+  color: #888;
+  font-family: "Helvetica Medium";
+}
+
+.carousel-div span {
+  color: #888;
+  font-family: "Hero Light";
+}
+
+.carousel-buttons {
+  font-family: "Helvetica Medium";
+}
+
+.carousel-icon {
+  color: red;
+  background-color: white;
+}
 /* project requires */
 .nav-bot a {
   color: #a30569;
