@@ -14,27 +14,27 @@
   <body>
 
     <!-- this project is a copy of a popular store of beaty products -->
-    <div class="div-head sticky-top"> <!-- fixed top division -->
+    <div class="div-head fixed-top"> <!-- fixed top division -->
       <div class=" d-flex justify-content-around" id="top">
         <div class="navbar navbar-expand">
           <a href="#" class="navbar-brand d-flex align-items-center"><img src="./assets/logo1.png" alt="" width="40" class="rounded-circle"><!-- logo -->
-            <h5 class="text-white text-uppercase ml-3 my-0">Skin Care</h5>
+            <h5 class="text-white text-uppercase ml-3 my-0 d-none">Skin Care</h5>
           </a>
           <ul class="navbar-nav">
-            <li class="nav-item active"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Home">
-              <i class="fas fa-home"></i><span class="px-3">Home</span></a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Collections"><i class="fas fa-expand"></i>
-              <span class="px-3">Collections</span></a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Shop"><i class="fas fa-shopping-cart"></i>
-              <span class="px-3">Purchase List</span></a></li>
+            <li class="nav-item active"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Home">
+              <i class="fas fa-home"></i><span class="px-lg-3">Home</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Collections"><i class="fas fa-expand"></i>
+              <span class="px-lg-3">Collections</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Shop"><i class="fas fa-shopping-cart"></i>
+              <span class="px-lg-3">Purchase List</span></a></li>
           </ul>
-          <button type="button" name="button" class="text-uppercase buttons">Post an ad</button>
+          <button type="button" name="button" class="text-uppercase buttons text-nowrap d-none d-md-block">Post an ad</button>
         </div>
-        <div class="navbar navbar-expand">
+        <div class="navbar navbar-expand d-none d-lg-flex">
           <ul class="navbar-nav">
             <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Messages">
               <i class="far fa-envelope"></i></a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Profile">
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Profile">
               <span class="text-capitalize px-3">your name</span><i class="fas fa-user"></i></a></li>
           </ul>
         </div>
@@ -91,11 +91,11 @@
       </div>
     </div>
 
-    <header>
+    <header class="mt-5">
       <div class="header-style d-flex flex-column align-items-center">
         <div class="d-flex flex-column align-items-center mt-4">
           <h1 class="mx-3 text-uppercase">Skin Care</h1>
-          <p class="text-capitalize">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</p>
+          <p class="text-capitalize text-center px-4">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</p>
         </div>
         <form class="form-inline" action="index.html" method="post">
           <div class="input-group mt-3 mb-3">
@@ -127,7 +127,7 @@
     </header>
 
 
-    <main class="p-3">
+    <main class="p-3 container-fluid">
       <section class="container-fluid"><!-- Carrousel seccion -->
         <h3 class="d-none">Carrousel</h3>
         <div id="demo" class="carousel slide" data-ride="carousel">
@@ -523,11 +523,12 @@
 
     </main>
 
-    <footer class="">
+
+    <footer class="container-fluid">
       <div class="d-flex p-3 justify-content-center container-fluid">
         <div class="d-flex border mr-3 p-2">
           <a href="#"><img src="./assets/logo1.png" alt="" width="100" class="rounded-circle p-2"></a>
-          <div class="d-flex flex-column p-2 ml-2">
+          <div class="d-flex flex-column p-md-2 ml-md-2">
             <ul class="d-flex">
               <li><a href="#" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook fa-2x"></i></a></li>
               <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a></li>

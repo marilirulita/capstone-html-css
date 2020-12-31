@@ -72,10 +72,11 @@ footer a {
   font-family: "Gotham Bold";
 }
 
+/*
 .div-head li {
   margin: 0 15px;
 }
-
+*/
 .header-style {
   background-image: url("assets/logo1.png");
   background-size: 300px;
