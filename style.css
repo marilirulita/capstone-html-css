@@ -111,7 +111,6 @@ footer a {
   color: #d35266; /* Red color */
 }
 
-
 .buttons {
   background-color: #d35266;
   color: #fff;
@@ -133,14 +132,6 @@ footer a {
   border: 1px solid #383838;
   border-radius: 2px;
   padding: 0 25px;
-}
-
-.nav-top a { /* Add for mobile screens, maybe */
-  color: #383838;
-}
-.nav-top a:hover {
-  color: #fff;
-  background-color: #383838;
 }
 
 .nav-drop a:hover {
@@ -170,6 +161,13 @@ footer a {
 .carousel-icon {
   color: red;
   background-color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .div-head i {
+    font-size: 25px;
+  }
+
 }
 /* project requires */
 .nav-bot a {
