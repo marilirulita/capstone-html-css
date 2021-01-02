@@ -54,14 +54,10 @@ main {
 }
 
 footer {
-  background-color: #c75f8e;
-  color: #4f474d;
+  color: #888;
 }
 footer a {
-  color: #4f474d;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 5px;
+  color: #888;
 }
 
 .div-head {
