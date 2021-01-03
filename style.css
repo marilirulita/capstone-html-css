@@ -37,11 +37,21 @@ body a {
 body a:hover {
   text-decoration: none;
 }
+
+body b {
+  font-family: "Helvetica Medium";
+}
+
 h1 {
   font-family: "Gotham Bold";
 }
 
-h2,
+h2 {
+  color: #888;
+  padding: 10px 0;
+  font-size: 10px;
+}
+
 h3,
 h4,
 h5 {
