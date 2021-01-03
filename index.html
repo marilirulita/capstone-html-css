@@ -20,7 +20,7 @@
           <a href="#" class="navbar-brand d-flex align-items-center"><img src="./assets/logo1.png" alt="" width="40" class="rounded-circle"><!-- logo -->
             <h5 class="text-white text-uppercase ml-3 my-0 d-none d-md-block">Skin Care</h5>
           </a>
-          <ul class="navbar-nav nav-top">
+          <ul class="navbar-nav">
             <li class="nav-item active"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Home">
               <i class="fas fa-home"></i><span class="px-lg-3 d-none d-sm-inline">Home</span></a></li>
             <li class="nav-item"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Collections"><i class="fas fa-expand"></i>
@@ -38,54 +38,6 @@
               <span class="text-capitalize px-3">your name</span><i class="fas fa-user"></i></a></li>
           </ul>
         </div>
-
-        <!--
-
-        <div class="p-2 d-none d-md-block">
-
-          <a href="#" class="px-2" data-toggle="tooltip" title="Community"><i class="fas fa-users fa-2x"></i></a>
-        </div>
-        <div class="p-2 d-none d-md-block">
-          <a href="#" class="px-2" data-toggle="tooltip" title="Stores"><i class="fas fa-store fa-2x"></i></a>
-        </div>
-
-        <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar2">
-          <span  data-toggle="tooltip" title="More"><i class="fas fa-chevron-circle-down fa-2x"></i></span>
-        </button>
-        <div class="d-md-none collapse navbar-collapse navbar-expand" id="collapsibleNavbar2">
-          <ul class="navbar-nav">
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Sign In"><i class="fas fa-user fa-2x "></i></a></li>
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Community"><i class="fas fa-users fa-2x "></i></a></li>
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Stores"><i class="fas fa-store fa-2x "></i></a></li>
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Shopping Cart"><i class="fas fa-shopping-cart fa-2x"></i></a></li>
-          </ul>
-        </div>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span data-toggle="tooltip" title="Bar Menu" class="gray-color"><i class="fas fa-bars fa-2x"></i></span>
-        </button>
-        <div class="collapse navbar-collapse navbar-expand" id="collapsibleNavbar">
-          <ul class="navbar-nav nav-top flex-wrap">
-            <li class="nav-item"><a href="#" class="nav-link ">Cleansers</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Toners</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Serum & Essence</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Eye Care</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Masks</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Moisturizers</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Suncare</a></li>
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">More</a>
-              <div class="dropdown-menu nav-drop">
-                <a href="#" class="dropdown-item">Make Up</a>
-                <a href="#" class="dropdown-item">Body & Hair</a>
-                <a href="#" class="dropdown-item">Brands</a>
-                <a href="#" class="dropdown-item">Sets & Gifts</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      -->
-
 
       </div>
     </div>
@@ -129,7 +81,7 @@
     <main class="container-fluid p-0">
       <section class="container-fluid bg-white mx-0 p-3"><!-- Carrousel seccion -->
         <div class="container mx-auto carousel-div">
-          <h2 class="">Hot Ads</h2>
+          <h2 class="text-uppercase">Hot Ads</h2>
           <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
@@ -143,21 +95,22 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="d-flex border">
-                  <img src="./assets/bg-top2.jpg" alt="" class="w-50 p-1 p-md-3 ml-md-5">
-                  <div class="w-50 p-1 p-md-3 mr-md-5">
+                  <img src="./assets/bg-top2.jpg" alt="" class="w-50 p-1 p-md-2 p-lg-3 ml-lg-5">
+                  <div class="w-50 p-1 p-md-2 p-lg-3 mr-lg-5">
                     <h4>Name of the product</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur consectetur leo
+                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur consectetur leo
                       pellentesque egestas. Sed eget velit eu ante tempor feugiat.</p>
+                    <p class="d-sm-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                     <span><b>Location: </b>Los Angeles</span>
                     <form class="form-inline" action="index.html" method="post">
                       <div class="input-group mt-3 mb-3">
                         <div class="input-group-prepend">
-                          <button type="button" name="button" class="carousel-buttons buttons">
+                          <button type="button" name="button" class="carousel-buttons buttons p-1 p-sm-2">
                             $450
                           </button>
                         </div>
                         <div class="input-group-append">
-                          <button class="carousel-buttons buttons" type="button" data-toggle="tooltip" title="Add to cart">
+                          <button class="carousel-buttons buttons p-1 p-sm-2" type="button" data-toggle="tooltip" title="Add to cart">
                             <i class="fas fa-shopping-cart pr-2"></i><p class="text-white d-none d-sm-inline">Purchase List</p>
                           </button>
                         </div>
@@ -169,21 +122,22 @@
               </div>
               <div class="carousel-item">
                 <div class="d-flex border">
-                  <img src="./assets/bg-top5.jpg" alt="" class="w-50 p-1 p-md-3 ml-md-5">
-                  <div class="w-50 p-1 p-md-3 mr-md-5">
+                  <img src="./assets/bg-top5.jpg" alt="" class="w-50 p-1 p-md-2 p-lg-3 ml-lg-5">
+                  <div class="w-50 p-1 p-md-2 p-lg-3 mr-lg-5">
                     <h4>Name of the product</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur consectetur leo
+                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur consectetur leo
                       pellentesque egestas. Sed eget velit eu ante tempor feugiat.</p>
+                    <p class="d-sm-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                     <span><b>Location: </b>San Diego</span>
                     <form class="form-inline" action="index.html" method="post">
                       <div class="input-group mt-3 mb-3">
                         <div class="input-group-prepend">
-                          <button type="button" name="button" class="carousel-buttons buttons">
+                          <button type="button" name="button" class="carousel-buttons buttons p-1 p-sm-2">
                             $450
                           </button>
                         </div>
                         <div class="input-group-append">
-                          <button class="carousel-buttons buttons" type="button" data-toggle="tooltip" title="Add to cart">
+                          <button class="carousel-buttons buttons p-1 p-sm-2" type="button" data-toggle="tooltip" title="Add to cart">
                             <i class="fas fa-shopping-cart pr-2"></i><p class="text-white d-none d-sm-inline">Purchase List</p>
                           </button>
                         </div>
@@ -194,21 +148,22 @@
               </div>
               <div class="carousel-item">
                 <div class="d-flex border">
-                  <img src="./assets/bg-top4.jpg" alt="" class="w-50 p-1 p-md-3 ml-md-5">
-                  <div class="w-50 p-1 p-md-3 mr-md-5">
+                  <img src="./assets/bg-top4.jpg" alt="" class="w-50 p-1 p-md-2 p-lg-3 ml-lg-5">
+                  <div class="w-50 p-1 p-md-2 p-lg-3 mr-lg-5">
                     <h4>Name of the product</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur consectetur leo
+                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur consectetur leo
                       pellentesque egestas. Sed eget velit eu ante tempor feugiat.</p>
+                    <p class="d-sm-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                     <span><b>Location: </b>San Francisco</span>
                     <form class="form-inline" action="index.html" method="post">
                       <div class="input-group mt-3 mb-3">
                         <div class="input-group-prepend">
-                          <button type="button" name="button" class="carousel-buttons buttons">
+                          <button type="button" name="button" class="carousel-buttons buttons p-1 p-sm-2">
                             $450
                           </button>
                         </div>
                         <div class="input-group-append">
-                          <button class="carousel-buttons buttons" type="button" data-toggle="tooltip" title="Add to cart">
+                          <button class="carousel-buttons buttons p-1 p-sm-2" type="button" data-toggle="tooltip" title="Add to cart">
                             <i class="fas fa-shopping-cart pr-2"></i><p class="text-white d-none d-sm-inline">Purchase List</p>
                           </button>
                         </div>
@@ -233,7 +188,7 @@
       </section>
 
       <section class="container-fluid"><!-- Best seller -->
-        <h2 class="mt-4">Best Sellers</h2>
+        <h3 class="my-4 border-bottom"><i class="far fa-smile-beam"></i> Best Sellers</h3>
 
           <div id="products" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -253,24 +208,43 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-1.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar2">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar2">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
+
                   </div>
                   <div class="col-6 col-md-4 col-lg-3">
                     <div class="card">
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-2.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar3">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar3">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -279,11 +253,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-3.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar4">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar4">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -292,11 +275,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-4.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar5">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar5">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -311,11 +303,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-5.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar6">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar6">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -324,11 +325,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-6.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar7">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar7">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -337,11 +347,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-7.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar8">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar8">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -350,11 +369,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-8.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar9">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar9">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -369,11 +397,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-9.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar10">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar10">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -382,11 +419,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-10.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar11">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar11">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -395,11 +441,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-11.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar12">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar12">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -408,11 +463,20 @@
                       <div class="embed-responsive embed-responsive-1by1">
                         <a href="#"><img src="./assets/clean-12.jpg" alt="" class="embed-responsive-item"></a>
                       </div>
-                      <div class="card-body clearfix">
+                      <div class="card-body clearfix prod-desc">
                         <h4 class="card-title m-0">Cleanser</h4>
                         <p class="card-text">Product description</p>
                         <h5 class="card-text float-right">$10.00</h5>
-                        <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar13">
+                          <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar13">
+                          <ul class="navbar-nav nav-top">
+                            <li><a href="#" class="px-2">Add to Collection</a></li>
+                            <li><a href="#" class="px-2">Send a Message</a></li>
+                            <li><a href="#" class="px-2">More Details</a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -432,7 +496,7 @@
       </section>
 
       <section class="container-fluid py-3">
-        <h2 class="my-3">Product of he month</h2>
+        <h3 class="my-4 border-bottom"><i class="far fa-smile-wink"></i> Product of he month</h3>
         <div id="month-product" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ul class="carousel-indicators">
@@ -451,11 +515,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-1.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar14">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar14">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -464,11 +537,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-2.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar15">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar15">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -477,11 +559,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-3.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar16">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar16">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -490,11 +581,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-4.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar17">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar17">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -509,11 +609,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-5.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar18">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar18">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -522,11 +631,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-6.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar19">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar19">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -535,11 +653,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-7.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar20">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar20">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -548,11 +675,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-8.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar21">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar21">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -567,11 +703,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-9.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar22">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar22">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -580,11 +725,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-10.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar23">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar23">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -593,11 +747,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-11.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar24">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar24">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -606,11 +769,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/serum-12.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Serum</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar25">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar25">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -631,7 +803,7 @@
       </section>
 
       <section class="container-fluid py-3">
-        <h2 class="my-3">New</h2>
+        <h3 class="my-4 border-bottom"><i class="far fa-grin-stars"></i> New</h3>
 
         <div id="new-products" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -651,11 +823,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-1.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar26">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar26">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -664,11 +845,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-2.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar27">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar27">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -677,11 +867,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-3.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar28">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar28">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -690,11 +889,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-4.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar29">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar29">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -709,11 +917,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-5.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar30">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar30">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -722,11 +939,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-6.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar31">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar31">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -735,11 +961,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-7.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar32">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar32">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -748,11 +983,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-8.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar33">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar33">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -767,11 +1011,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-9.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar34">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar34">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -780,11 +1033,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-10.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar35">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar35">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -793,11 +1055,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-11.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar36">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar36">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -806,11 +1077,20 @@
                     <div class="embed-responsive embed-responsive-1by1">
                       <a href="#"><img src="./assets/toner-12.jpg" alt="" class="embed-responsive-item"></a>
                     </div>
-                    <div class="card-body clearfix">
+                    <div class="card-body clearfix prod-desc">
                       <h4 class="card-title m-0">Toner</h4>
                       <p class="card-text">Product description</p>
                       <h5 class="card-text float-right">$10.00</h5>
-                      <button type="button" name="button" class="btn text-secondary border font-weight-bold">+</button>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar37">
+                        <span class="btn text-secondary border font-weight-bold" data-toggle="tooltip" title="More">+</span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar37">
+                        <ul class="navbar-nav nav-top">
+                          <li><a href="#" class="px-2">Add to Collection</a></li>
+                          <li><a href="#" class="px-2">Send a Message</a></li>
+                          <li><a href="#" class="px-2">More Details</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -832,59 +1112,69 @@
     </main>
 
     <footer class="container-fluid">
-      <div class="">
+      <div class="footer-up">
         <div class="">
           <div class="d-flex">
             <a href="#" class="d-flex align-items-center"><img src="./assets/logo1.png" alt="" width="100" class="rounded-circle p-2">
-            <h5 class="text-uppercase ml-3 my-0">Skin Care</h5></a>
+            <h2 class="text-uppercase ml-3 my-0">Skin Care</h2></a>
           </div>
-          <p></p>
+          <p>Mauris mollis efficitur odio, sit amet vulputate mi tincidunt ac. Mauris quis mattis enim, ut dictum
+            neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci dui, scelerisque sit amet
+            porttitor ut, aliquam in diam.</p>
         </div>
 
         <div class="">
           <h4>Categories</h4>
-          <ul class="">
-            <li class="p-2 m-2"><a href="#">Customer Service</a></li>
-            <li class="p-2 m-2"><a href="#">Return Policy</a></li>
-            <li class="p-2 m-2"><a href="#">Shipping Information</a></li>
-            <li class="p-2 m-2"><a href="#">Rewards Program</a></li>
-            <li class="p-2 m-2"><a href="#">Contact Us</a></li>
-            <li class="p-2 m-2"><a href="#">FAQs</a></li>
-          </ul>
-          <ul class="">
-            <li class="p-2 m-2"><a href="#">Customer Service</a></li>
-            <li class="p-2 m-2"><a href="#">Return Policy</a></li>
-            <li class="p-2 m-2"><a href="#">Shipping Information</a></li>
-            <li class="p-2 m-2"><a href="#">Rewards Program</a></li>
-            <li class="p-2 m-2"><a href="#">Contact Us</a></li>
-            <li class="p-2 m-2"><a href="#">FAQs</a></li>
-          </ul>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#" class="text-nowrap">Customer Service</a></li>
+              <li><a href="#" class="text-nowrap">Return Policy</a></li>
+              <li><a href="#" class="text-nowrap">Shipping Information</a></li>
+              <li><a href="#" class="text-nowrap">Rewards Program</a></li>
+              <li><a href="#" class="text-nowrap">Contact Us</a></li>
+              <li><a href="#" class="text-nowrap">FAQs</a></li>
+            </ul>
+            <ul class="pl-5">
+              <li><a href="#" class="text-nowrap">Customer Service</a></li>
+              <li><a href="#" class="text-nowrap">Return Policy</a></li>
+              <li><a href="#" class="text-nowrap">Shipping Information</a></li>
+              <li><a href="#" class="text-nowrap">Rewards Program</a></li>
+              <li><a href="#" class="text-nowrap">Contact Us</a></li>
+              <li><a href="#" class="text-nowrap">FAQs</a></li>
+            </ul>
+          </div>
         </div>
 
         <div class="">
           <h4>Navigation</h4>
-          <ul class="">
-            <li class="p-2 m-2"><a href="#" class="border-right border-left">Customer Service</a></li>
-            <li class="p-2 m-2"><a href="#" class="border-right border-left">Return Policy</a></li>
-            <li class="p-2 m-2"><a href="#" class="border-right border-left">Shipping Information</a></li>
-            <li class="p-2 m-2"><a href="#" class="border-right border-left">Rewards Program</a></li>
-            <li class="p-2 m-2"><a href="#" class="border-right border-left">Contact Us</a></li>
-            <li class="p-2 m-2"><a href="#" class="border-right border-left">FAQs</a></li>
+          <ul>
+            <li><a href="#" class="text-nowrap">Customer Service</a></li>
+            <li><a href="#" class="text-nowrap">Return Policy</a></li>
+            <li><a href="#" class="text-nowrap">Shipping Information</a></li>
+            <li><a href="#" class="text-nowrap">Rewards Program</a></li>
+            <li><a href="#" class="text-nowrap">Contact Us</a></li>
+            <li><a href="#" class="text-nowrap">FAQs</a></li>
           </ul>
         </div>
-        <div class="">
-          <h4>Country</h4><h5>Swizerland</h5>
-          <h4>Language</h4><h5>English</h5>
-          <h4>Currency</h4><h5>US Dollar</h5>
+        <div class="footer-options">
+          <div class="options">
+            <h4>Country</h4><h5>Swizerland</h5>
+          </div>
+          <div class="">
+            <h4>Language</h4><h5>English</h5>
+          </div>
+          <div class="">
+            <h4>Currency</h4><h5>US Dollar</h5>
+          </div>
         </div>
       </div>
-      <div class="">
+      <div class="footer-down">
         <p class="">Copyright Ⓒ 2020 Skin Care Inc. All Rights Reserved</p>
-        <ul class="">
-          <li><a href="#" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook fa-2x"></i></a></li>
-          <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-          <li><a href="#" data-toggle="tooltip" title="Instagram"><i class="fab fa-instagram-square fa-2x"></i></a></li>
-          <li><a href="#" data-toggle="tooltip" title="Youtube"><i class="fab fa-youtube fa-2x"></i></a></li>
+        <ul class="social-div">
+          <li class="mx-3"><a href="#" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook fa-2x"></i></a></li>
+          <li class="mx-3"><a href="#" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+          <li class="mx-3"><a href="#" data-toggle="tooltip" title="Instagram"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+          <li class="mx-3"><a href="#" data-toggle="tooltip" title="Youtube"><i class="fab fa-youtube fa-2x"></i></a></li>
         </ul>
       </div>
     </footer>
