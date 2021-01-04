@@ -2,10 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./css/master.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/add939e8fb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -14,63 +13,35 @@
   </head>
   <body>
 
-    <div class="header-top div-head sticky-top"> <!-- fixed top division -->
-      <div class="navbar" id="top">
-
-        <div class="p-2 d-none d-md-block">
-          <a href="#" class="px-2" data-toggle="tooltip" title="Sign In"><i class="fas fa-user fa-2x "></i></a>
-          <a href="#" class="px-2" data-toggle="tooltip" title="Community"><i class="fas fa-users fa-2x "></i></a>
-        </div>
-        <div class="p-2 d-none d-md-block">
-          <a href="#" class="px-2" data-toggle="tooltip" title="Stores"><i class="fas fa-store fa-2x "></i></a>
-          <a href="#" class="px-2" data-toggle="tooltip" title="Shopping Cart"><i class="fas fa-shopping-cart fa-2x">
-          </i></a>
-        </div>
-
-        <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar2">
-          <span  data-toggle="tooltip" title="More"><i class="fas fa-chevron-circle-down fa-2x text-white"></i></span>
-        </button>
-        <div class="d-md-none collapse navbar-collapse navbar-expand" id="collapsibleNavbar2">
+    <div class="div-head fixed-top"> <!-- fixed top division -->
+      <div class="d-flex justify-content-around" id="top">
+        <div class="navbar navbar-expand">
+          <a href="#" class="navbar-brand d-flex align-items-center"><img src="./assets/logo1.png" alt="" width="40" class="rounded-circle"><!-- logo -->
+            <h5 class="text-white text-uppercase ml-3 my-0 d-none d-md-block">Skin Care</h5>
+          </a>
           <ul class="navbar-nav">
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Sign In"><i class="fas fa-user fa-2x "></i></a></li>
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Community"><i class="fas fa-users fa-2x "></i></a></li>
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Stores"><i class="fas fa-store fa-2x "></i></a></li>
-            <li><a href="#" class="px-2" data-toggle="tooltip" title="Shopping Cart"><i class="fas fa-shopping-cart fa-2x"></i></a></li>
+            <li class="nav-item active"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Home">
+              <i class="fas fa-home"></i><span class="px-lg-3 d-none d-md-inline">Home</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Collections"><i class="fas fa-expand"></i>
+              <span class="px-lg-3 d-none d-md-inline">Collections</span></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Shop"><i class="fas fa-shopping-cart"></i>
+              <span class="px-lg-3 d-none d-md-inline">Purchase List</span></a></li>
+          </ul>
+          <button type="button" name="button" class="text-uppercase buttons text-nowrap d-none d-sm-block">Post an ad</button>
+        </div>
+        <div class="navbar navbar-expand">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase" data-toggle="tooltip" title="Messages">
+              <i class="far fa-envelope"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-uppercase text-nowrap" data-toggle="tooltip" title="Profile">
+              <span class="text-capitalize px-3 d-none d-lg-inline">your name</span><i class="fas fa-user"></i></a></li>
           </ul>
         </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span data-toggle="tooltip" title="Bar Menu"><i class="fas fa-bars fa-2x text-white"></i></span>
-        </button>
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse navbar-expand" id="collapsibleNavbar">
-          <ul class="navbar-nav nav-top flex-wrap">
-            <li class="nav-item"><a href="#" class="nav-link ">Cleansers</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Toners</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Serum & Essence</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Eye Care</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Masks</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Moisturizers</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Suncare</a></li>
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">More</a>
-              <div class="dropdown-menu nav-drop">
-                <a href="#" class="dropdown-item">Make Up</a>
-                <a href="#" class="dropdown-item">Body & Hair</a>
-                <a href="#" class="dropdown-item">Brands</a>
-                <a href="#" class="dropdown-item">Sets & Gifts</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control form-inline" placeholder="Search">
-          <div class="input-group-append">
-            <button class="btn" type="submit" data-toggle="tooltip" title="Search"><i class="fas fa-search fa-2x text-white"></i></button>
-          </div>
-        </div>
       </div>
     </div>
+
+    
 
   </body>
 </html>
