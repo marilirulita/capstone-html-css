@@ -38,7 +38,7 @@ footer a {
 
 .nav-drop a {
   color: #383838;
-  font-family: "Helvetica Light",Helvetica,sans-serif;
+  font-family: "Helvetica Light", Helvetica, sans-serif;
 }
 
 body a:hover {
@@ -46,11 +46,11 @@ body a:hover {
 }
 
 body b {
-  font-family: "Helvetica Medium", Helvetica ,sans-serif;
+  font-family: "Helvetica Medium", Helvetica, sans-serif;
 }
 
 body h1 {
-  font-family: "Gotham Bold", Helvetica ,sans-serif;
+  font-family: "Gotham Bold", Helvetica, sans-serif;
 }
 
 body h2 {
@@ -90,13 +90,13 @@ footer {
 }
 
 .div-head {
-  font-family: "Helvetica Light", Helvetica ,sans-serif;
+  font-family: "Helvetica Light", Helvetica, sans-serif;
   background-color: #383838; /* BLACK COLOR */
   color: #888; /* GRAY COLOR */
 }
 
 .div-head h5 {
-  font-family: "Gotham Bold", Helvetica ,sans-serif;
+  font-family: "Gotham Bold", Helvetica, sans-serif;
 }
 
 .header-style {
@@ -110,11 +110,11 @@ footer {
 }
 
 .header-style p {
-  font-family: "Hero Light", Helvetica ,sans-serif;
+  font-family: "Hero Light", Helvetica, sans-serif;
 }
 
 .header-style form {
-  font-family: "Helvetica Light", Helvetica ,sans-serif;
+  font-family: "Helvetica Light", Helvetica, sans-serif;
 }
 
 .header-style input {
@@ -174,26 +174,26 @@ footer {
 .nav-drop a:hover {
   background-color: #383838;
   color: #fff;
-  font-family: "Helvetica Light", Helvetica ,sans-serif;
+  font-family: "Helvetica Light", Helvetica, sans-serif;
 }
 
 .carousel-div h4 {
   color: #d35266;
-  font-family: "Helvetica Medium", Helvetica ,sans-serif;
+  font-family: "Helvetica Medium", Helvetica, sans-serif;
 }
 
 .carousel-div p {
   color: #888;
-  font-family: "Helvetica Medium", Helvetica ,sans-serif;
+  font-family: "Helvetica Medium", Helvetica, sans-serif;
 }
 
 .carousel-div span {
   color: #888;
-  font-family: "Hero Light", Helvetica ,sans-serif;
+  font-family: "Hero Light", Helvetica, sans-serif;
 }
 
 .carousel-buttons {
-  font-family: "Helvetica Medium", Helvetica ,sans-serif;
+  font-family: "Helvetica Medium", Helvetica, sans-serif;
 }
 
 .carousel-icon {
