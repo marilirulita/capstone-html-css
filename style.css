@@ -182,14 +182,14 @@ footer {
   font-family: "Helvetica Medium", Helvetica, sans-serif;
 }
 
-.carousel-div button span {
-  color: #888;
-  font-family: "Helvetica Medium", Helvetica, sans-serif;
-}
-
 .carousel-div span {
   color: #888;
   font-family: "Hero Light", Helvetica, sans-serif;
+}
+
+.carousel-div button span {
+  color: #888;
+  font-family: "Helvetica Medium", Helvetica, sans-serif;
 }
 
 .carousel-buttons {
