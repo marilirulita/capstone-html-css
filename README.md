@@ -6,6 +6,8 @@ Capstone project  for Html and Css module, The page works best on all resolution
 
 ### Desktop Screen
 ![screenshot](./assets/sceenchot-desktop.png)
+![screenshot](./assets/sceenchot-desktop2.png)
+![screenshot](./assets/screenshot-desk-search.png)
 
 ### Tablet Screen
 ![screenshot](./assets/screenshot-tablet.png)
@@ -19,7 +21,6 @@ Capstone project  for Html and Css module, The page works best on all resolution
 - HTML5
 - CSS
 - Bootstrap
-- SASS
 - Font Awesome
 - Google Fonts
 
@@ -27,13 +28,17 @@ Capstone project  for Html and Css module, The page works best on all resolution
 
 [Live Demo Link](https://marilirulita.github.io/capstone-html-css/.)
 
+## Author
+
 👤 **Mar y Sol Bautista**
 
 - GitHub: [@marilirulita](https://github.com/marilirulita)
 - Linkedin: [@marilirulita](https://www.linkedin.com/in/mar-y-sol-bautista-5a6894151/)
 - Twiter: [@marilirulita](https://twitter.com/marylirulita)
 
-
+## Design idea
+- Design by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+- you can find the original project [Here](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 🤝 Contributing
 
