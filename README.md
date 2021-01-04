@@ -38,7 +38,7 @@ Capstone project  for Html and Css module, The page works best on all resolution
 
 ## Design idea
 - Design by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
-- you can find the original project [Here](https://www.behance.net/gallery/24796463/ZATTIX)
+- You can find the original project [Here](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 🤝 Contributing
 
