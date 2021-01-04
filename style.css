@@ -32,16 +32,25 @@ body a {
   text-decoration: none;
 }
 
+.nav-drop a {
+  color: #383838;
+  font-family: "Helvetica Light", Helvetica ,sans-serif;
+}
+
+footer a {
+  color: #888;
+}
+
 body a:hover {
   text-decoration: none;
 }
 
 body b {
-  font-family: "Helvetica Medium";
+  font-family: "Helvetica Medium", Helvetica ,sans-serif;
 }
 
 body h1 {
-  font-family: "Gotham Bold";
+  font-family: "Gotham Bold", Helvetica ,sans-serif;
 }
 
 body h2 {
@@ -73,25 +82,21 @@ body h5 {
 }
 
 main {
-  background-color: #F3F3F3; /* Light gray color */
+  background-color: #f3f3f3; /* Light gray color */
 }
 
 footer {
   color: #888;
 }
 
-footer a {
-  color: #888;
-}
-
 .div-head {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica Light", Helvetica ,sans-serif;
   background-color: #383838; /* BLACK COLOR */
   color: #888; /* GRAY COLOR */
 }
 
 .div-head h5 {
-  font-family: "Gotham Bold";
+  font-family: "Gotham Bold", Helvetica ,sans-serif;
 }
 
 .header-style {
@@ -105,11 +110,11 @@ footer a {
 }
 
 .header-style p {
-  font-family: "Hero Light";
+  font-family: "Hero Light", Helvetica ,sans-serif;
 }
 
 .header-style form {
-  font-family: "Helvetica Light";
+  font-family: "Helvetica Light", Helvetica ,sans-serif;
 }
 
 .header-style input {
@@ -154,7 +159,7 @@ footer a {
 
 .nav-top li {
   padding: 7px;
-  color:  #383838;
+  color: #383838;
 }
 
 .nav-top li:hover {
@@ -166,34 +171,29 @@ footer a {
   color: #fff;
 }
 
-.nav-drop a {
-  color: #383838;
-  font-family: "Helvetica Light";
-}
-
 .nav-drop a:hover {
   background-color: #383838;
   color: #fff;
-  font-family: "Helvetica Light";
+  font-family: "Helvetica Light", Helvetica ,sans-serif;
 }
 
 .carousel-div h4 {
   color: #d35266;
-  font-family: "Helvetica Medium"
+  font-family: "Helvetica Medium", Helvetica ,sans-serif;
 }
 
 .carousel-div p {
   color: #888;
-  font-family: "Helvetica Medium";
+  font-family: "Helvetica Medium", Helvetica ,sans-serif;
 }
 
 .carousel-div span {
   color: #888;
-  font-family: "Hero Light";
+  font-family: "Hero Light", Helvetica ,sans-serif;
 }
 
 .carousel-buttons {
-  font-family: "Helvetica Medium";
+  font-family: "Helvetica Medium", Helvetica ,sans-serif;
 }
 
 .carousel-icon {
