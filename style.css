@@ -292,7 +292,6 @@ footer a {
   grid-template-columns: 1fr 3fr;
 }
 
-
 @media screen and (max-width: 1024px) {
   .footer-up {
     flex-direction: column;
