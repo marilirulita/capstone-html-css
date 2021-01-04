@@ -32,13 +32,13 @@ body a {
   text-decoration: none;
 }
 
-.nav-drop a {
-  color: #383838;
-  font-family: "Helvetica Light", Helvetica ,sans-serif;
-}
-
 footer a {
   color: #888;
+}
+
+.nav-drop a {
+  color: #383838;
+  font-family: "Helvetica Light",Helvetica,sans-serif;
 }
 
 body a:hover {
