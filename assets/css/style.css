@@ -1,26 +1,26 @@
 @font-face {
   font-family: "Gotham Bold";
-  src: url("./assets/fonts/HomepageBaukasten-Bold.otf");
+  src: url("./HomepageBaukasten-Bold.otf");
 }
 
 @font-face {
   font-family: "Hero Light";
-  src: url("./assets/fonts/Hero-Light.otf");
+  src: url("./Hero-Light.otf");
 }
 
 @font-face {
   font-family: "Helvetica Light";
-  src: url("./assets/fonts/Helvetica-Light.ttf");
+  src: url("./Helvetica-Light.ttf");
 }
 
 @font-face {
   font-family: "Helvetica Medium";
-  src: url("./assets/fonts/Helvetica-Medium.otf");
+  src: url("./Helvetica-Medium.otf");
 }
 
 @font-face {
   font-family: "Helvetica Bold";
-  src: url("./assets/fonts/Helvetica-Bold.otf");
+  src: url("./Helvetica-Bold.otf");
 }
 
 body li {
@@ -287,10 +287,14 @@ footer {
 }
 
 /* code for search file */
+.contain-main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
 @media screen and (max-width: 1024px) {
-  .contain-main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+  .footer-up {
+    flex-direction: column;
   }
 }
 
