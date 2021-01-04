@@ -286,13 +286,12 @@ footer {
   justify-content: space-around;
 }
 
-/* code for search file */
-@media screen and (max-width: 1024px) {
-  .contain-main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-  }
+.contain-main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
+
+/* code for search file */
 
 @media screen and (max-width: 760px) {
   .div-head i {
