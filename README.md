@@ -7,15 +7,15 @@ Find any skincare product online.
 The Capstone Project Aim is to Create a Shopping site, based on a specific design but giving it personalized content, in this case, it is a store of skincare products. This project consists of a Main and Search Page including goods and respective messages along with prices, The page works best in Chrome, It includes HTML CSS and Bootstrap.
 
 ### Desktop Screen
-![screenshot](./assets/sceenchot-desktop.png)
-![screenshot](./assets/sceenchot-desktop2.png)
-![screenshot](./assets/screenshot-desk-search.png)
+![screenshot](./assets/images/sceenchot-desktop.png)
+![screenshot](./assets/images/sceenchot-desktop2.png)
+![screenshot](./assets/images/screenshot-desk-search.png)
 
 ### Tablet Screen
-![screenshot](./assets/screenshot-tablet.png)
+![screenshot](./assets/images/screenshot-tablet.png)
 
 ### Mobile Screen
-![screenshot](./assets/screenshot-mobile.png)
+![screenshot](./assets/images/screenshot-mobile.png)
 
 
 ## Built With
