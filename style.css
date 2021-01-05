@@ -286,12 +286,10 @@ footer {
   justify-content: space-around;
 }
 
-.contain-main {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+.widths {
+  max-width: 336px;
+  min-width: 200px;
 }
-
-/* code for search file */
 
 @media screen and (max-width: 760px) {
   .div-head i {
