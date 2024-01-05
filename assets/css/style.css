@@ -323,3 +323,8 @@ footer {
   width: 100%;
   min-height: 300px;
 }
+
+.carrousel_favorites {
+  width: 100%;
+  height: 500px;
+}
