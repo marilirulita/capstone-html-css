@@ -318,3 +318,8 @@ footer {
     flex-direction: column;
   }
 }
+
+.header {
+  width: 100%;
+  min-height: 300px;
+}
