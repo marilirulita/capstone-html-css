@@ -328,7 +328,7 @@ footer {
 
 .carrousel_favorites, .slides_best_seller, .slides_product_month, .slides_new {
   width: 100%;
-  height: 500px;
+  height: 100vh;
 }
 
 .footer {
