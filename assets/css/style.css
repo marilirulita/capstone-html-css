@@ -319,12 +319,19 @@ footer {
   }
 }
 
+/* iframes code */
+
 .header {
   width: 100%;
   min-height: 300px;
 }
 
 .carrousel_favorites {
+  width: 100%;
+  height: 500px;
+}
+
+.slides_best_seller {
   width: 100%;
   height: 500px;
 }
