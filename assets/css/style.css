@@ -286,14 +286,6 @@ footer {
   justify-content: space-around;
 }
 
-.long-text {
-  display: block;
-}
-
-.short-text {
-  display: none;
-}
-
 /* code for search file */
 .contain-main {
   display: grid;
@@ -309,15 +301,6 @@ footer {
 @media screen and (max-width: 760px) {
   .div-head i {
     font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .long-text {
-    display: none;
-  }
-  .short-text {
-    display: block;
   }
 }
 
