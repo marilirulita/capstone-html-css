@@ -21,23 +21,29 @@
     <title>Segunda Mano</title>
   </head>
   <body>
+    <!-- fixed top division -->
     <div class="div-head fixed-top">
-      <!-- fixed top division -->
-      <div class="d-flex justify-content-around" id="top">
-        <div class="navbar navbar-expand">
-          <a href="./index.html" class="navbar-brand d-flex align-items-center"
-            ><img
-              src="./assets/images/logo1.png"
-              alt=""
-              width="40"
-              class="rounded-circle"
-            /><!-- logo -->
-            <h5 class="text-white text-uppercase ml-3 my-0 d-none d-md-block">
-              Tienda de Segunda Mano
-            </h5>
-          </a>
-          <ul class="navbar-nav">
-            <li class="nav-item active">
+      
+      <div id="top">
+        <!-- hay un solo navbar con dos divisions -->
+        <div class="navbar navbar-expand justify-content-around">
+          <!-- division 1 -->
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a href="../index.html" class="d-flex align-items-center">
+                <!-- logo -->
+                <img
+                src="../assets/images/logo1.png"
+                alt=""
+                width="40"
+                class="rounded-circle"
+                />           
+                <h5 class="text-white text-uppercase ml-3 my-0 d-none d-md-block">
+                  Tienda de Segunda Mano
+                </h5>
+              </a>
+            </li>
+            <li class="nav-item">
               <a
                 href="./index.html"
                 class="nav-link text-uppercase text-nowrap"
@@ -70,21 +76,24 @@
                 ></a
               >
             </li>
-          </ul>
-          <button
+            <li class="nav-item">
+              <button
             type="button"
             name="button"
             class="text-uppercase buttons text-nowrap d-none d-sm-block"
           >
             Post an ad
           </button>
-        </div>
-        <div class="navbar navbar-expand">
-          <ul class="navbar-nav">
+            </li>
+          
+
+          </ul>
+          <!-- division 2 -->
+          <ul class="navbar-nav align-items-center justify-content-center">
             <li class="nav-item">
               <a
                 href="https://api.whatsapp.com/send?phone=526862581063&text=Hola, quiero informacion sobre estos productos!"
-                class="nav-link text-uppercase"
+                class="nav-link text-uppercase d-flex align-items-end"
                 data-toggle="tooltip"
                 title="Messages"
               >
@@ -98,13 +107,16 @@
                 data-toggle="tooltip"
                 title="Profile"
               >
-                <span class="text-capitalize px-3 d-none d-lg-inline"
+                <span class="text-capitalize pr-2 d-none d-lg-inline"
                   >your name</span
                 ><i class="fas fa-user"></i
               ></a>
             </li>
           </ul>
+          
         </div>
+ 
+          
       </div>
     </div>
 
