@@ -30,7 +30,10 @@
           <!-- division 1 -->
           <ul class="navbar-nav align-items-center">
             <li class="nav-item">
-              <a href="../index.html" class="d-flex align-items-center">
+              <a href="../index.html" 
+              class="d-flex align-items-center"
+              data-toggle="tooltip"
+              title="Tienda de Segunda Mano">
                 <!-- logo -->
                 <img
                 src="../assets/images/logo1.png"
@@ -85,6 +88,17 @@
             Post an ad
           </button>
             </li>
+            <li class="nav-item">
+              <button
+            type="button"
+            name="button"
+            class="text-uppercase buttons text-nowrap d-block d-sm-none"
+            data-toggle="tooltip"
+              title="Post an ad"
+          >
+          <i class="fas fa-light fa-smile"></i>
+          </button>
+            </li>
           
 
           </ul>
@@ -123,13 +137,13 @@
     <header class="mt-5">
       <div class="header-style d-flex flex-column align-items-center">
         <div class="d-flex flex-column align-items-center mt-4">
-          <h1 class="mx-3 text-uppercase">Tienda Online</h1>
+          <h1 class="mx-0 text-uppercase text-center">Tienda Online</h1>
           <p class="text-capitalize text-center px-4">
             Convierte lo pre-amado en lo perfecto para ti.
           </p>
         </div>
         <form class="form-inline" action="./results-page.html" method="get">
-          <div class="input-group mt-3 mb-1 mb-md-3 mx-2">
+          <div class="input-group mb-1 mx-2">
             <div class="input-group-prepend">
               <button
                 type="button"
@@ -139,7 +153,7 @@
               >
                 Todos los productos
               </button>
-              <div class="dropdown-menu nav-drop">
+              <div class="dropdown-menu nav-drop mt-5">
                 <a href="./results-page.html" class="dropdown-item">Blusas</a>
                 <a href="./results-page.html" class="dropdown-item">Camisas</a>
                 <a href="./results-page.html" class="dropdown-item">Interior</a>

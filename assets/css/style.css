@@ -305,6 +305,14 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+
+  h1 {
+    font-size: 2rem !important;
+  }
+  .header {
+    height: 350px;
+  }
+
   .prod-desc h5 {
     color: #d35266;
     font-weight: bold;
@@ -319,11 +327,17 @@ footer {
   }
 }
 
+@media screen and (max-width: 230px) {
+  .header {
+    height: 470px;
+  }
+}
+
 /* iframes code */
 
 .header {
   width: 100%;
-  min-height: 300px;
+  min-height: 270px;
 }
 
 .carrousel_favorites, .slides_best_seller, .slides_product_month, .slides_new {
