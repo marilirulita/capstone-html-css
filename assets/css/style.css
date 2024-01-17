@@ -292,6 +292,12 @@ footer {
   grid-template-columns: 1fr 3fr;
 }
 
+.dropdown-menu {
+  margin-top: 60px !important;
+  height: 200px !important;
+  overflow-y: scroll;
+}
+
 @media screen and (max-width: 1024px) {
   .footer-up {
     flex-direction: column;
@@ -309,8 +315,9 @@ footer {
   h1 {
     font-size: 2rem !important;
   }
+
   .header {
-    height: 350px;
+    height: 300px;
   }
 
   .prod-desc h5 {
@@ -327,9 +334,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 230px) {
+@media screen and (max-width: 260px) {
   .header {
-    height: 470px;
+    height: 350px;
+  }
+
+  .dropdown-menu {
+    height: 250px ;
   }
 }
 
