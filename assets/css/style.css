@@ -312,6 +312,10 @@ footer {
 
 @media screen and (max-width: 576px) {
 
+  .carrousel_favorites {
+    height: 680px;
+  } 
+
   h1 {
     font-size: 2rem !important;
   }
@@ -332,6 +336,10 @@ footer {
   .footer-down {
     flex-direction: column;
   }
+
+  img {
+    max-height: 350px;
+  }
 }
 
 @media screen and (max-width: 260px) {
@@ -351,9 +359,14 @@ footer {
   min-height: 270px;
 }
 
-.carrousel_favorites, .slides_best_seller, .slides_product_month, .slides_new {
+.carrousel_favorites {
   width: 100%;
-  height: 100vh;
+  min-height: 550px;
+}
+
+ .slides_best_seller, .slides_product_month, .slides_new {
+  width: 100%;
+  height: 650px;
 }
 
 .footer {
