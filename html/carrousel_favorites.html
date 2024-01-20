@@ -1,208 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/add939e8fb.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Segunda Mano</title>
-  </head>
-  <body>
-    <section class="container-fluid bg-white mx-0 p-0 p-sm-3">
-      <!-- Carrousel seccion -->
-      <div class="container-fluid mx-auto carousel-div">
-        <h2 class="text-uppercase">Favoritos</h2>
-        <div id="demo" class="carousel slide pb-5" data-ride="carousel">
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
 
-          <!-- The slideshow -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card d-block w-100 mx-auto" style="max-width: 600px;">
-                <div class="row g-0 mx-0">
-                  <div class="col-sm-6 p-0 d-flex justify-content-center">
-                    <img
-                      src="../assets/images/botas1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-sm-6 p-0 ">
-                    <div class="card-body">
-                      <h4>Botas de trabajo</h4>
-                      <p>
-                        Botas para trabajar, como las que dan en fabricas, con
-                        casquillos.
-                      </p>
-                      <span><b>Lugar: </b>Mexicali</span>
-                      <form
-                        class="form-inline"
-                        action="index.html"
-                        method="post"
-                      >
-                        <div class="input-group mt-3 mb-3">
-                          <div class="input-group-prepend">
-                            <button
-                              type="button"
-                              name="button"
-                              class="carousel-buttons buttons p-1 p-sm-2"
-                            >
-                              $300
-                            </button>
-                          </div>
-                          <div class="input-group-append">
-                            <button
-                              class="carousel-buttons buttons p-1 p-sm-2"
-                              type="button"
-                              data-toggle="tooltip"
-                              title="Add to cart"
-                            >
-                              <i class="fas fa-shopping-cart pr-2"></i
-                              ><span class="text-white d-none d-sm-inline"
-                                >Carrito</span
-                              >
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/add939e8fb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Segunda Mano</title>
+</head>
+
+<body>
+  <section class="container-fluid bg-white mx-0 p-0 p-sm-3">
+    <!-- Carrousel seccion -->
+    <div class="container-fluid mx-auto carousel-div">
+      <h2 class="text-uppercase">Favoritos</h2>
+      <div id="demo" class="carousel slide pb-5" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card d-block w-100 mx-auto" style="max-width: 600px;">
+              <div class="row g-0 mx-0">
+                <div class="col-sm-6 p-0 d-flex justify-content-center">
+                  <img src="../assets/images/botas1.jpg" class="img-fluid rounded-start" alt="..." />
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card d-block w-100 mx-auto" style="max-width: 600px">
-                <div class="row g-0 mx-0">
-                  <div class="col-sm-6 p-0 d-flex justify-content-center">
-                    <img
-                      src="../assets/images/calcetines1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-sm-6 p-0">
-                    <div class="card-body">
-                      <h4>Calcetas amarillas</h4>
-                      <p>Calcetas largas para jugar deportes, football.</p>
-                      <span><b>Lugar: </b>Mexicali</span>
-                      <form
-                        class="form-inline"
-                        action="index.html"
-                        method="post"
-                      >
-                        <div class="input-group mt-3 mb-3">
-                          <div class="input-group-prepend">
-                            <button
-                              type="button"
-                              name="button"
-                              class="carousel-buttons buttons p-1 p-sm-2"
-                            >
-                              $50
-                            </button>
-                          </div>
-                          <div class="input-group-append">
-                            <button
-                              class="carousel-buttons buttons p-1 p-sm-2"
-                              type="button"
-                              data-toggle="tooltip"
-                              title="Add to cart"
-                            >
-                              <i class="fas fa-shopping-cart pr-2"></i
-                              ><span class="text-white d-none d-sm-inline"
-                                >Carrito</span
-                              >
-                            </button>
-                          </div>
+                <div class="col-sm-6 p-0 ">
+                  <div class="card-body">
+                    <h4>Botas de trabajo</h4>
+                    <p>
+                      Botas para trabajar, como las que dan en fabricas, con
+                      casquillos.
+                    </p>
+                    <span><b>Lugar: </b>Mexicali</span>
+                    <form class="form-inline" action="index.html" method="post">
+                      <div class="input-group mt-3 mb-3">
+                        <div class="input-group-prepend">
+                          <button type="button" name="button" class="carousel-buttons buttons p-1 p-sm-2">
+                            $300
+                          </button>
                         </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card d-block w-100 mx-auto" style="max-width: 600px">
-                <div class="row g-0 mx-0">
-                  <div class="col-sm-6 p-0 d-flex justify-content-center">
-                    <img
-                      src="../assets/images/calcetines4.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-sm-6 p-0">
-                    <div class="card-body">
-                      <h4>Calcetines grises</h4>
-                      <p>Calcetines gruesos para el frio.</p>
-                      <span><b>Location: </b>San Francisco</span>
-                      <form
-                        class="form-inline"
-                        action="index.html"
-                        method="post"
-                      >
-                        <div class="input-group mt-3 mb-3">
-                          <div class="input-group-prepend">
-                            <button
-                              type="button"
-                              name="button"
-                              class="carousel-buttons buttons p-1 p-sm-2"
-                            >
-                              $50
-                            </button>
-                          </div>
-                          <div class="input-group-append">
-                            <button
-                              class="carousel-buttons buttons p-1 p-sm-2"
-                              type="button"
-                              data-toggle="tooltip"
-                              title="Add to cart"
-                            >
-                              <i class="fas fa-shopping-cart pr-2"></i
-                              ><span class="text-white d-none d-sm-inline"
-                                >Carrito</span
-                              >
-                            </button>
-                          </div>
+                        <div class="input-group-append">
+                          <button class="carousel-buttons buttons p-1 p-sm-2" type="button" data-toggle="tooltip"
+                            title="Add to cart">
+                            <i class="fas fa-shopping-cart pr-2"></i><span
+                              class="text-white d-none d-sm-inline">Carrito</span>
+                          </button>
                         </div>
-                      </form>
-                    </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span
-              class="carousel-control-prev-icon p-3 bg-danger rounded-circle"
-            ></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span
-              class="carousel-control-next-icon p-3 bg-danger rounded-circle"
-            ></span>
-          </a>
+          <div class="carousel-item">
+            <div class="card d-block w-100 mx-auto" style="max-width: 600px">
+              <div class="row g-0 mx-0">
+                <div class="col-sm-6 p-0 d-flex justify-content-center">
+                  <img src="../assets/images/calcetines1.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-sm-6 p-0">
+                  <div class="card-body">
+                    <h4>Calcetas amarillas</h4>
+                    <p>Calcetas largas para jugar deportes, football.</p>
+                    <span><b>Lugar: </b>Mexicali</span>
+                    <form class="form-inline" action="index.html" method="post">
+                      <div class="input-group mt-3 mb-3">
+                        <div class="input-group-prepend">
+                          <button type="button" name="button" class="carousel-buttons buttons p-1 p-sm-2">
+                            $50
+                          </button>
+                        </div>
+                        <div class="input-group-append">
+                          <button class="carousel-buttons buttons p-1 p-sm-2" type="button" data-toggle="tooltip"
+                            title="Add to cart">
+                            <i class="fas fa-shopping-cart pr-2"></i><span
+                              class="text-white d-none d-sm-inline">Carrito</span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card d-block w-100 mx-auto" style="max-width: 600px">
+              <div class="row g-0 mx-0">
+                <div class="col-sm-6 p-0 d-flex justify-content-center">
+                  <img src="../assets/images/calcetines4.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-sm-6 p-0">
+                  <div class="card-body">
+                    <h4>Calcetines grises</h4>
+                    <p>Calcetines gruesos para el frio.</p>
+                    <span><b>Location: </b>San Francisco</span>
+                    <form class="form-inline" action="index.html" method="post">
+                      <div class="input-group mt-3 mb-3">
+                        <div class="input-group-prepend">
+                          <button type="button" name="button" class="carousel-buttons buttons p-1 p-sm-2">
+                            $50
+                          </button>
+                        </div>
+                        <div class="input-group-append">
+                          <button class="carousel-buttons buttons p-1 p-sm-2" type="button" data-toggle="tooltip"
+                            title="Add to cart">
+                            <i class="fas fa-shopping-cart pr-2"></i><span
+                              class="text-white d-none d-sm-inline">Carrito</span>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon p-3 bg-danger rounded-circle"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon p-3 bg-danger rounded-circle"></span>
+        </a>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
