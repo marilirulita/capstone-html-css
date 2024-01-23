@@ -349,6 +349,25 @@ footer {
   .footer {
     height: 850px;
   }
+
+}
+
+@media screen and (max-width: 440px) {
+
+  .brand-title {
+    display: none !important;
+  }
+
+}
+
+
+@media screen and (max-width: 350px) {
+
+  .icons-group {
+    flex-direction: column;
+  align-items: flex-start !important;
+  }
+
 }
 
 @media screen and (max-width: 260px) {
@@ -359,8 +378,12 @@ footer {
   .dropdown-menu {
     height: 250px ;
   }
+
 }
 
+.brand-title {
+  display: block;
+}
 /* iframes code */
 
 .header {
@@ -386,4 +409,3 @@ footer {
 .carousel-control-next, .carousel-control-prev {
   width: 5% !important;
 }
-
