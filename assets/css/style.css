@@ -291,7 +291,7 @@ footer {
 }
 
 .dropdown-menu {
-  margin-top: 60px !important;
+  margin-top: 70px !important;
   height: 200px !important;
   overflow-y: scroll;
 }
@@ -408,4 +408,8 @@ footer {
 
 .carousel-control-next, .carousel-control-prev {
   width: 5% !important;
+}
+
+.carousel-indicators li {
+  background-color: #d35266 !important;
 }
